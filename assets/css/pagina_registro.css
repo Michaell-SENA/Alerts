@@ -1,0 +1,63 @@
+.container
+{
+
+	background: orange;
+	margin-top: -20px;
+	border: 1px solid #fff;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+
+}
+
+form
+{
+
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	padding: 50px;
+	text-align: center;
+
+}
+
+.casilla
+{
+
+	padding: 10px;
+
+}
+
+.mensaje-con
+{
+
+	color: #fff;
+
+}
+
+.boton
+{
+
+	width: 400px;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+
+}
+
+.img-con 
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.img 
+{
+
+	display: flex;
+	width: 100px;
+
+}
+
+

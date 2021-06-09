@@ -1,0 +1,38 @@
+.bon
+{
+
+	width: 90%;
+	margin-bottom: 20px;
+
+
+}
+
+.mov
+{
+
+	margin-left: 20px;
+	
+}
+
+
+th
+{
+
+	font-size: 15px;
+	background: orange;
+	color: #000;
+	border: 1px #000 solid;
+	text-align: center;
+
+}
+
+td
+{
+
+	font-size: 15px;
+	background: orange;
+	color: #000;
+	border: 1px #000 solid;
+	text-align: center;
+
+}

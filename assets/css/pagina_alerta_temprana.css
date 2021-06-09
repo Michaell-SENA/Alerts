@@ -1,0 +1,56 @@
+.input-1
+{
+
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.unid
+{
+
+	padding: 10px;
+
+}
+
+.data-tipo
+{
+
+	text-align: center;
+	color: #fff;
+	padding: 10px
+
+}
+
+.fondo-data-tipo
+{
+
+	background: orange;
+	height: 50px;
+
+}
+
+.mov-parraf
+{
+
+	text-align: justify;
+	padding: 20px;
+
+}
+
+.btn-bt
+{
+
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25%;
+
+}
+
+.btn-bt:hover
+{
+
+	color: #fff;
+
+}
