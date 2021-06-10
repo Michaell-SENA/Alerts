@@ -19,15 +19,21 @@
     }
 
 	
-
 	$nombre = $_SESSION['nombres'];
 
 
 	require_once("../vista/plantillas/parteSuperior.php");
 
-		echo "Contenido de preferencia del usuario";
+?>
+
+	
+	<h1 class="titulo">Bienvenido: <?php echo $nombre ?></h1>
+
+	<h3 class="titulo">Esperamos que tenga una gran experiencia en nuestra plataforma</h3>
+	
+
+<?php 
 
 	require_once("../vista/plantillas/parteInferior.php");
-
 
 ?>

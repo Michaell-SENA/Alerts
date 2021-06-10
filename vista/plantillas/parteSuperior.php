@@ -64,7 +64,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="casos_asignados.php">
                     <i class="fas fa-address-book"></i>
                 <span>CASOS ASIGNADOS</span></a>
             </li>
