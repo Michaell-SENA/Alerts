@@ -66,7 +66,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="">
                     <i class="fas fa-address-book"></i>
-                <span>OPCION_2</span></a>
+                <span>CASOS ASIGNADOS</span></a>
             </li>
 
             <div class="sidebar-heading">

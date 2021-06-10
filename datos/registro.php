@@ -1,3 +1,5 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
 <?php
 
 	include "conexion.php";
@@ -13,8 +15,7 @@
 	    $contrasena = $_POST['reg_contrasena'];
 	    $cargo = $_POST['reporte_diri'];
 
-		//Valida que todos los campos esten enviando información, para poder continuar.
-	    //Caso contrario, entonces genera error.
+		//Valida que todos los campos no esten vacios, para poder continuar.
 		if(empty($tel) || empty($nombre) || empty($correo) || empty($contrasena) || empty($cargo)) 
 	    {
 	    	
@@ -24,8 +25,6 @@
 
 
 	    	//Valida que la contraseña tenga 6 o mas caracteres para poder avanzar.
-	    	//Caso contrario, entonces genera error.
-
 		    if( strlen($contrasena) < 6) 
 		    {
 
@@ -44,6 +43,7 @@
 		    	$resultado_nombre->bindParam(":nombre",$nombre);
 		    	$resultado_nombre->execute();
 
+		    	//Validamos que el correo no haya sido registrado anteriormente.
 		    	if($resultado_email->rowCount()>0) 
 		    	{
 		    	
@@ -51,6 +51,7 @@
 
 		    	}else{
 
+		    		//Validamos que el usuario no haya sido registrado anteriormente.
 		    		if ($resultado_nombre->rowCount()>0) 
 		    		{
 		    			
@@ -72,7 +73,7 @@
 					    $resultado->bindParam(":contrasena",$contrasena);
 					    $resultado->bindParam(":cargo",$cargo);
 
-					    
+					    //Validamos que todo salio bien y que si exite ingreso de datos me lo confirme con un mensaje en pantalla.
 					    if ($resultado->execute()) 
 					    {
 					    	

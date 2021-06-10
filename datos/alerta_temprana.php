@@ -1,3 +1,5 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
 <?php 
 
 	require_once("conexion.php");
@@ -16,7 +18,7 @@
     }
 
 	
-
+    //Hace lectura de los contenidos a mostrar en los SELECT.
 	$nombre = $_SESSION['nombres'];
 
 	$query = "SELECT * FROM obj_doc_sena";

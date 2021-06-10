@@ -1,3 +1,5 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
 <?php 
 
 	require_once("../vista/inicio_sesion.php");
@@ -10,7 +12,7 @@
 		$correo = $_POST['ini_correo'];
 		$contrasenas = $_POST['ini_contrasena'];
 
-
+		//Valida si el campo correo y contraseña no estan vacios.
 		if(empty($correo) || empty($contrasenas)) 
 	    {
 			
@@ -18,8 +20,8 @@
 
 		}else{
 
+			//Valida que el correo y la contraseña conincidan con la del registro.
 			$query = "SELECT nombre,correo,contrasena FROM obj_registro_sena WHERE correo = :correo";
-
 
 		    $resultado = Conexion::conectar()->prepare($query);
 
@@ -38,7 +40,7 @@
 
 		        $_SESSION['nombres'] = $filas['nombre'];
 
-
+		        //Desencriptamos la contraseña de la BD y la verificamos con la que estamos accediendo.
 		        if(password_verify($contrasenas, $pass1)) 
 		        {
 
