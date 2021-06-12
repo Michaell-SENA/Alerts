@@ -24,15 +24,22 @@
 <div class="containerr">
 
 	<div class="card-body text-center">
-
+       
         <a class="btn btn-info boton-2" href="../datos/registros_EXE.php">DESCARGAR EXCEL</a>
 
-        <div id="response" class="table-responsive">
+        <div id="" class="table-responsive">
+            
+            <form class="busqu" method="POST" action="registros.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>">
 
-            <div id="nombre"><?php echo $nombre = $_SESSION['nombres']; ?></div>
+                <input class="form-control obj" type="text" name="busqueda" placeholder="Introduzca el numero de documento">
+                <input class="btn btn-primary col-md-6 obj-btn" type="submit" id="" value="BUSCAR">
+
+            </form>
+
     	   <?php 
 
             require_once("../datos/registros.php"); 
+
 
            ?>
 

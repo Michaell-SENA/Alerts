@@ -129,11 +129,7 @@
                             </div>
                         </li>
 
-                            <form id="form" action="post">
 
-                                <input class="form-control" type="text" name="busqueda" placeholder="Buscar" id="schear">
-
-                            </form>
 
                         <div class="topbar-divider d-none d-sm-block">
                             
