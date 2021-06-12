@@ -35,7 +35,7 @@
                 </div>
                 <div class="sidebar-brand-text mx-3">
 
-                    <strong>Bienvenido: </strong><?php echo $nombre; ?>
+                    <strong>Bienvenido: </strong><?php echo $_SESSION['nombres']; ?>
 
                 </div>
             </a>
@@ -45,7 +45,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="admin.php">
+                <a class="nav-link" href="../datos/admin.php">
                     <i class="fas fa-house-user"></i>
                     <span>Inicio</span></a>
             </li>
@@ -57,14 +57,14 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="alerta_temprana.php">
+                <a class="nav-link" href="../datos/alerta_temprana.php">
                     <i class="fas fa-user-plus"></i>
                 <span>ALERTA TEMPRANA</span></a>
             </li>
 
 
             <li class="nav-item">
-                <a class="nav-link" href="casos_asignados.php">
+                <a class="nav-link" href="../datos/casos_asignados.php">
                     <i class="fas fa-address-book"></i>
                 <span>CASOS ASIGNADOS</span></a>
             </li>
@@ -74,7 +74,7 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="registros.php">
+                <a class="nav-link" href="../vista/registros.php?nombre=<?php echo $_SESSION['nombres']; ?>">
                     <i class="fas fa-id-badge"></i>
                 <span>REGISTROS</span></a>
             </li>
@@ -129,11 +129,19 @@
                             </div>
                         </li>
 
-                        <div class="topbar-divider d-none d-sm-block"></div>
+                            <form id="form" action="post">
+
+                                <input class="form-control" type="text" name="busqueda" placeholder="Buscar" id="schear">
+
+                            </form>
+
+                        <div class="topbar-divider d-none d-sm-block">
+                            
+                        </div>
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a id="btn" href="cerrarSesion.php" class="btn btnn btn-lg col-md-12">Cerrar Sesion</a>
+                            <a id="btn" href="../datos/cerrarSesion.php" class="btn btnn btn-lg col-md-12">Cerrar Sesion</a>
                         </li>
 
                     </ul>
