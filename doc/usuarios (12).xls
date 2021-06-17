@@ -1,0 +1,178 @@
+
+<meta charset="UTF-8"/>
+<table class="table table-bordered" id="">
+
+    <thead>
+        <tr>
+            <th>NOMBRE APRENDIZ</th>
+            <th>APELLIDO APRENDIZ</th>
+            <th>TIPO DOC</th>
+            <th>DOCUMENTO</th>
+            <th>TELEFONO</th>
+            <th>DIRECCIÓN</th>
+            <th>NIVEL</th>
+            <th>PROGRAMA</th>
+            <th>FICHA</th>
+            <th>JORNADA</th>
+            <th>SEDE</th>
+            <th>CAUSA</th>
+            <th>DIRIGIDO</th>
+            <th>ACCIÓN</th>
+            <th>SOPORTE</th>
+            <th>NOMBRE INSTRUCTOR</th>
+            <th>APELLIDO INSTRUCTOR</th>
+            <th>TELEFONO INSTRUCTOR</th>
+            <th>CORREO INSTRUCTOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>Mendoza</td>
+                <td>CF</td>
+                <td>24524</td>
+                <td>45245</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>ADSI</td>
+                <td>785</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>Otras situaciones que atentan con buen desarrollo del proceso formativo (Deficiencias cognitivas, alteraciones psicológicas y emocionales, entre otras)</td>
+                <td>Bienestar al aprendiz</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (8).xls">usuarios (8).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>75785</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>Mendoza</td>
+                <td>CF</td>
+                <td>24524</td>
+                <td>45245</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>ADSI</td>
+                <td>785</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>Otras situaciones que atentan con buen desarrollo del proceso formativo (Deficiencias cognitivas, alteraciones psicológicas y emocionales, entre otras)</td>
+                <td>Bienestar al aprendiz</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (8).xls">usuarios (8).xls</a></td>
+                <td></td>
+                <td>doblem</td>
+                <td>75785</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Dante</td>
+                <td>qwerty</td>
+                <td>TI</td>
+                <td>234324</td>
+                <td>23434</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>Archivo</td>
+                <td>32433</td>
+                <td>Tarde</td>
+                <td>Finca KM11</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Psicologa</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (7).xls">usuarios (7).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>234324</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Dante</td>
+                <td>qwerty</td>
+                <td>TI</td>
+                <td>234324</td>
+                <td>23434</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>Archivo</td>
+                <td>32433</td>
+                <td>Tarde</td>
+                <td>Finca KM11</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Psicologa</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (7).xls">usuarios (7).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>234324</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Dante</td>
+                <td>qwerty</td>
+                <td>TI</td>
+                <td>234324</td>
+                <td>23434</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>Archivo</td>
+                <td>32433</td>
+                <td>Tarde</td>
+                <td>Finca KM11</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Psicologa</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (7).xls">usuarios (7).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>234324</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>milton</td>
+                <td>Mendoza</td>
+                <td>TI</td>
+                <td>4535441</td>
+                <td>35454645</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Técnico</td>
+                <td>ADSI</td>
+                <td>4564545</td>
+                <td>Mañana</td>
+                <td>Modelo</td>
+                <td>Otras situaciones que atentan con buen desarrollo del proceso formativo (Deficiencias cognitivas, alteraciones psicológicas y emocionales, entre otras)</td>
+                <td>Bienestar al aprendiz</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/usuarios (10).xls">usuarios (10).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>3645456</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>Mendoza Pacheco</td>
+                <td>CC</td>
+                <td>1006700197</td>
+                <td>3178284780</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>ADSI</td>
+                <td>54545</td>
+                <td>Tarde</td>
+                <td>Finca KM11</td>
+                <td>Faltas académicas (Incumplimiento en actividades de aprendizaje, no aprobación de planes de mejoramiento, etc.,)</td>
+                <td>Coordinación académica</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/formato_horas Nuevo.pdf">formato_horas Nuevo.pdf</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>32154445</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+            </tbody>
+
+</table>
