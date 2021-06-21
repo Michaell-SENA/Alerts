@@ -26,6 +26,9 @@
         $telefono_ins = $_POST['telefono_ins'];
         $correo_ins = $_POST['correo_ins'];
         $responsable = $_SESSION['nombres'];
+        $correo_aprendiz = $_POST['correo_aprendiz'];
+
+
 
     //Verificamos si se selecciono un archivo.
     if($_FILES['file']["error"]>0)
@@ -69,6 +72,7 @@
                 {
 
                     require_once("registro_alerta_dos.php");
+                    require_once("enviarMail.php");
 
                 }else{
 
@@ -80,6 +84,7 @@
 
                 // echo "archivo existe";
                 require_once("registro_alerta_dos.php");
+                require_once("enviarMail.php");
                 // header('Location: ../vista/agregarProductos.php');
 
             }
