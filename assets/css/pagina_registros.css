@@ -58,3 +58,51 @@ td
 
 }
 
+.paginador ul
+{
+
+	padding: 15px;
+	list-style: none;
+	background: #fff;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.paginador a, .pageSelected
+{
+
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 50px;
+	text-decoration: none;
+	font-weight: 100px;
+
+}
+
+.paginador a:hover
+{
+
+	background: #ddd;
+
+
+}
+
+.pageSelected
+{
+
+	color: #fff;
+	background: #428bca;
+	border: 1px solid #428bca;
+
+}
+

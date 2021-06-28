@@ -74,7 +74,7 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="../vista/registros.php?nombre=<?php echo $_SESSION['nombres']; ?>">
+                <a class="nav-link" href="../vista/registros.php?nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
                     <i class="fas fa-id-badge"></i>
                 <span>REGISTROS</span></a>
             </li>
