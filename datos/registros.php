@@ -17,7 +17,7 @@
 
     $total_registro;
 
-    $por_pagina = 10;
+    $por_pagina = 2;
 
     if (empty($_GET['pagina']))
     {

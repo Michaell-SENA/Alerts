@@ -64,7 +64,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link" href="../datos/casos_asignados.php">
+                <a class="nav-link" href="../vista/casos_asignados.php?id=<?php echo $_SESSION['id']?>&nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
                     <i class="fas fa-address-book"></i>
                 <span>CASOS ASIGNADOS</span></a>
             </li>

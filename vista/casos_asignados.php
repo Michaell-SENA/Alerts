@@ -1,74 +1,97 @@
 <!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
 <!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
 <?php 
+
+    session_start();
+
+    if(isset($_SESSION['nombres']))
+    {
+
+
+
+    }else{
+
+        header('Location: inicio_sesion.php');
+
+    }
+
+    $nombre = $_SESSION['nombres'];
+
+?>
+
+<?php 
 	require_once("plantillas/parteSuperior.php");
 ?>
 <div class="containerr">
 
 	<div class="card-body text-center">
 
-        <a class="btn btn-info boton-2" href="#">DESCARGAR EXCEL</a>
+        <a class="btn btn-info boton-2" href="../datos/casos_asignados_EXE.php">DESCARGAR EXCEL</a>
 
         <div class="table-responsive">
 
-    	<table class="table table-bordered" id="">
+            <form class="busqu" method="POST" action="casos_asignados.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>">
 
-            <thead>
-                <tr>
-                    <th>NOMBRE APRENDIZ</th>
-                    <th>APELLIDO APRENDIZ</th>
-                    <th>TIPO DOC</th>
-                    <th>DOCUMENTO</th>
-                    <th>TELEFONO</th>
-                    <th>DIRECCIÓN</th>
-                    <th>NIVEL</th>
-                    <th>PROGRAMA</th>
-                    <th>FICHA</th>
-                    <th>JORNADA</th>
-                    <th>SEDE</th>
-                    <th>CAUSA</th>
-                    <th>DIRIGIDO</th>
-                    <th>ACCIÓN</th>
-                    <th>SOPORTE</th>
-                    <th>NOMBRE INSTRUCTOR</th>
-                    <th>APELLIDO INSTRUCTOR</th>
-                    <th>TELEFONO INSTRUCTOR</th>
-                    <th>CORREO INSTRUCTOR</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php 
-                    while($filas = $resultado->fetch())
-                    {                                            
-                ?>
-                    <tr class="">
-                        <td><?php echo $filas['nombre']?></td>
-                        <td><?php echo $filas['apellido']?></td>
-                        <td><?php echo $filas['nombre_doc']?></td>
-                        <td><?php echo $filas['num_doc']?></td>
-                        <td><?php echo $filas['telefono']?></td>
-                        <td><?php echo $filas['direccion']?></td>
-                        <td><?php echo $filas['nombre_nivel']?></td>
-                        <td><?php echo $filas['programa']?></td>
-                        <td><?php echo $filas['ficha']?></td>
-                        <td><?php echo $filas['nombre_jornada']?></td>
-                        <td><?php echo $filas['nombre_sede']?></td>
-                        <td><?php echo $filas['nombre_mot_reporte']?></td>
-                        <td><?php echo $filas['nombre_reporte']?></td>
-                        <td><?php echo $filas['accion']?></td>
-                        <td><a target="_blank" href="../doc/<?php echo $filas['documento_soporte']?>"><?php echo $filas['documento_soporte']?></a></td>
-                        <td><?php echo $filas['nombre_ins']?></td>
-                        <td><?php echo $filas['apellido_ins']?></td>
-                        <td><?php echo $filas['telefono_ins']?></td>
-                        <td><?php echo $filas['correo_ins']?></td>
-                    </tr>
-                <?php
-                    }
-                ?>
-            </tbody>
+                <input class="form-control obj" type="text" name="busqueda" placeholder="Introduzca el numero de documento">
+                <input class="btn btn-primary col-md-6 obj-btn" type="submit" id="" value="BUSCAR">
 
-        </table>
+            </form>
+
+            <?php 
+
+                require_once("../datos/casos_asignados.php"); 
+            ?>
+
     	</div>	
+
+        <div class="footer">
+            <div class="paginador">
+                
+                <ul>
+
+                    <?php 
+
+                        if ($pagina != 1) 
+                        {
+                        
+                    ?>
+                    
+                        <li><a href="?nombre=<?php echo $nombreS ?>&pagina=<?php echo $pagina-1; ?>&id=<?php echo $id ?>"><<</a></li>
+                    <?php 
+
+                        }
+
+                        for ($i=1; $i <= $total_paginas; $i++) 
+                        { 
+                            
+                            if ($i == $pagina)
+                            {
+                            
+                                echo '<li class="pageSelected">'.$i.'</li>';
+
+                            }else{
+
+                                echo '<li><a href="?id='.$id.'&nombre='.$nombreS.'&pagina='.$i.'">'.$i.'</a></li>';
+
+                            }
+                            
+
+                        }
+
+                        if ($pagina != $total_paginas)
+                        {
+                            
+                    ?>
+
+                    <li><a href="?nombre=<?php echo $nombreS ?>&pagina=<?php echo $pagina+1; ?>&id=<?php echo $id ?>">>></a></li>
+
+                    <?php } ?>
+
+                </ul>
+
+            </div>
+        </div>
+
 	</div>		
 </div>
 <?php 
