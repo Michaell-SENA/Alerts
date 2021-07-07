@@ -79,6 +79,28 @@
                 <span>REGISTROS</span></a>
             </li>
 
+            <div class="sidebar-heading">
+                SEMAFORO
+            </div>
+
+            <li class="nav-item" id="color-1">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-exclamation-triangle"></i>
+                <span>VERDE</span></a>
+            </li>
+
+            <li class="nav-item" id="color-2">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-exclamation-triangle"></i>
+                <span>NARANJA</span></a>
+            </li>
+
+            <li class="nav-item" id="color-3">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-exclamation-triangle"></i>
+                <span>ROJO</span></a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 

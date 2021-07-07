@@ -65,8 +65,9 @@
 
 
 		<div class="col-md-12">
-			<button name="enviar" type="submit" class="btn btn-primary boton">Registrar.</button>
-			<a class="btn btn-info boton" href="../datos/inicio_sesion.php">Iniciar sesión.</a>
+			<button name="enviar" type="submit" class="btn boton fon">Registrar.</button>
+			<a class="btn boton fon" href="../datos/inicio_sesion.php">Iniciar sesión.</a>
+			<a class="btn boton fon" href="../datos/aprendiz_registro.php">Aprendiz.</a>
 		</div>
 	</form>
 

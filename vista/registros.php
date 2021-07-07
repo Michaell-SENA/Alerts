@@ -27,14 +27,15 @@
        
         <a class="btn btn-info boton-2" href="../datos/registros_EXE.php">DESCARGAR EXCEL</a>
 
-        <div id="" class="table-responsive">
-            
-            <form class="busqu" method="POST" action="registros.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>">
+        <form class="busqu" method="POST" action="registros.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>">
 
                 <input class="form-control obj" type="text" name="busqueda" placeholder="Introduzca el numero de documento">
                 <input class="btn btn-primary col-md-6 obj-btn" type="submit" id="" value="BUSCAR">
 
             </form>
+
+        <div id="" class="table-responsive">
+            
 
     	   <?php 
 

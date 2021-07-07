@@ -3,8 +3,8 @@
 <?php
 
     //Tratada de datos en el cual enviamos los valores recogidos mediante post para ser guardados en la BD.
-    $query = "INSERT INTO obj_alerta(nombre, apellido, doc, num_doc, telefono, direccion, nivel, programa, ficha, jornada, sede, cusa_reporte, reporte_diri, accion, documento_soporte, nombre_ins, apellido_ins, telefono_ins, correo_ins, responsable, fecha_registro, correo_aprendiz)
-    VALUES(:nombre, :apellido, :doc, :num_doc, :telefono, :direccion, :nivel, :programa, :ficha, :jornada, :sede, :cusa_reporte, :reporte_diri, :accion, :imagenProducto, :nombre_ins, :apellido_ins, :telefono_ins, :correo_ins, :responsable, NOW(), :correo_aprendiz)";
+    $query = "INSERT INTO obj_alerta(nombre, apellido, doc, num_doc, telefono, direccion, nivel, programa, ficha, jornada, sede, cusa_reporte, reporte_diri, accion, documento_soporte, nombre_ins, apellido_ins, telefono_ins, correo_ins, responsable, fecha_registro, correo_aprendiz, causa_reporte_aprendiz)
+    VALUES(:nombre, :apellido, :doc, :num_doc, :telefono, :direccion, :nivel, :programa, :ficha, :jornada, :sede, :cusa_reporte, :reporte_diri, :accion, :imagenProducto, :nombre_ins, :apellido_ins, :telefono_ins, :correo_ins, :responsable, NOW(), :correo_aprendiz, :causa_reporte_aprendiz)";
 
     $resultado = Conexion::conectar()->prepare($query);
 
@@ -29,6 +29,7 @@
     $resultado->bindParam(":correo_ins",$correo_ins);
     $resultado->bindParam(":responsable",$responsable);
     $resultado->bindParam(":correo_aprendiz",$correo_aprendiz);
+    $resultado->bindParam(":causa_reporte_aprendiz",$causa_reporte_aprendiz);
 
     $resultado->execute();
     

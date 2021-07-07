@@ -28,14 +28,14 @@
 
         <a class="btn btn-info boton-2" href="../datos/casos_asignados_EXE.php">DESCARGAR EXCEL</a>
 
-        <div class="table-responsive">
-
-            <form class="busqu" method="POST" action="casos_asignados.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>">
+            <form class="busqu" method="POST" action="casos_asignados.php?nombre=<?php echo $nombre = $_SESSION['nombres'] ?>&id=<?php echo $id = $_SESSION['id'] ?>">
 
                 <input class="form-control obj" type="text" name="busqueda" placeholder="Introduzca el numero de documento">
                 <input class="btn btn-primary col-md-6 obj-btn" type="submit" id="" value="BUSCAR">
 
             </form>
+
+        <div class="table-responsive">
 
             <?php 
 

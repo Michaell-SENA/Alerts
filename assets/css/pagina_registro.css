@@ -40,6 +40,24 @@ form
 	width: 400px;
 	font-size: 20px;
 	letter-spacing: 0.2em;
+	margin-bottom: 30px;
+
+}
+
+.fon
+{
+
+	background: #F12E07;
+	border: none;
+	color: #fff;
+
+}
+
+.fon:hover
+{
+
+	background: #FC6344;
+	color: #fff;
 
 }
 
@@ -59,5 +77,6 @@ form
 	width: 100px;
 
 }
+
 
 

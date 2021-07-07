@@ -8,6 +8,6 @@
     session_destroy();
     session_unset();
 
-    header('Location: registro.php');
+    header('Location: inicio_sesion.php');
 
 ?>

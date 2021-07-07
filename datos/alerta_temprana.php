@@ -45,7 +45,7 @@
     $resultado4 = Conexion::conectar()->prepare($query4);
     $resultado4->execute();
 
-    $query5 = "SELECT * FROM obj_mot_reporte_sena";
+    $query5 = "SELECT * FROM obj_mot_reporte_sena LIMIT 0, 3";
     $resultado5 = Conexion::conectar()->prepare($query5);
     $resultado5->execute();
 

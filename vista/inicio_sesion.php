@@ -27,8 +27,8 @@
 		</div>
 
 		<div class="col-md-12">
-			<button name="enviar" type="submit" class="btn btn-info boton">Iniciar sesión.</button>
-			<a class="btn btn-primary boton" href="../datos/registro.php">Registrar.</a>
+			<button name="enviar" type="submit" class="btn boton fon">Iniciar sesión.</button>
+			<a class="btn boton fon" href="../datos/registro.php">Registrar.</a>
 		</div>
 
 	</form>
