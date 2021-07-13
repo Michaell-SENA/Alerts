@@ -125,6 +125,8 @@
 
 		<div class="row unid">
 
+			<div class="col-md-6">Reporte del instructor: <textarea class="input-1" type="text" name="accion" rows="10" required></textarea></div>
+
 			<div class="col-md-6">Reporte dirigido a:
 				<select class="input-1" name="reporte_diri" id="reporte_diri">
 					<option value=''></option>
@@ -139,13 +141,11 @@
 	        	</select>
 			</div>
 
-			<div class="col-md-6">Acciones realizadas por parte del instructor: <input class="input-1" type="text" name="accion" required></div>
-
 		</div>
 
 
 		<div class="row unid">
-			<div class="col-md-6">Documentos de soporte al reporte: <input class="input-1" type="file" name="file" required></div>
+			<div class="col-md-6">Documentos de soporte al reporte: <input class="input-1" type="file" name="file" ></div>
 		</div>
 
 		<div class="col-md-12 fondo-data-tipo"><h4 class="data-tipo">Datos del instructor.</h4></div>

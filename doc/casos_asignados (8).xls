@@ -1,0 +1,33 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+
+<meta charset="UTF-8"/>
+<table class="table table-bordered" id="">
+
+    <thead>
+        <tr>
+            <th>NOMBRE APRENDIZ</th>
+            <th>APELLIDO APRENDIZ</th>
+            <th>TIPO DOC</th>
+            <th>DOCUMENTO</th>
+            <th>TELEFONO</th>
+            <th>DIRECCIÓN</th>
+            <th>NIVEL</th>
+            <th>PROGRAMA</th>
+            <th>FICHA</th>
+            <th>JORNADA</th>
+            <th>SEDE</th>
+            <th>CAUSA</th>
+            <th>DIRIGIDO</th>
+            <th>ACCIÓN</th>
+            <th>SOPORTE</th>
+            <th>NOMBRE INSTRUCTOR</th>
+            <th>APELLIDO INSTRUCTOR</th>
+            <th>TELEFONO INSTRUCTOR</th>
+            <th>CORREO INSTRUCTOR</th>
+        </tr>
+    </thead>
+    <tbody>
+            </tbody>
+
+</table>

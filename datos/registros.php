@@ -88,8 +88,8 @@
                     <th>FICHA</th>
                     <th>JORNADA</th>
                     <th>SEDE</th>
-                    <th>CAUSA</th>
-                    <th>CAUSA APRENDIZ</th>
+                    <th>CAUSA REPORTE INSTRUCTOR</th>
+                    <th>CAUSA REPORTE APRENDIZ</th>
                     <th>DIRIGIDO</th>
                     <th>ACCIÓN</th>
                     <th>SOPORTE</th>

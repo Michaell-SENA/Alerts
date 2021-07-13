@@ -24,7 +24,7 @@
                 $correo_aprendiz = $_POST['correo_aprendiz'];
                 $causa_reporte_aprendiz = $_POST['res'];
                 $cusa_reporte = 4;
-                $reporte_diri = 3;
+                $reporte_diri = 1;
                 $accion = "";
                 $nombre_ins = "";
                 $apellido_ins = "";
@@ -32,6 +32,7 @@
                 $responsable = "";
                 $telefono_ins = 0;
                 $imagenProducto = "";
+                $hoy = date("d");
 
                 require_once("registro_alerta_dos.php");
                 header("Location: registro.php");
@@ -71,6 +72,7 @@
             $responsable = $_SESSION['nombres'];
             $correo_aprendiz = $_POST['correo_aprendiz'];
             $causa_reporte_aprendiz = "";
+            $hoy = date("d");
 
             //Verificamos si se selecciono un archivo.
             if($_FILES['file']["error"]>0)

@@ -67,7 +67,12 @@
 		<div class="col-md-12">
 			<button name="enviar" type="submit" class="btn boton fon">Registrar.</button>
 			<a class="btn boton fon" href="../datos/inicio_sesion.php">Iniciar sesión.</a>
-			<a class="btn boton fon" href="../datos/aprendiz_registro.php">Aprendiz.</a>
+				<div class="col-md-12 casilla">
+					<span id="passwordHelpInline" class="form-text mensaje-con">
+				      Si eres un aprendiz seleccione esta opción.
+				    </span>
+				</div>
+			<a class="btn boton fon" href="../datos/aprendiz_registro.php" target="_blank">Aprendiz.</a>
 		</div>
 	</form>
 
