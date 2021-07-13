@@ -37,6 +37,27 @@ td
 
 }
 
+.rojo
+{
+
+	background: #F56554;
+
+}
+
+.naranja
+{
+
+	background: orange;
+
+}
+
+.verde
+{
+
+	background: #43D308;
+
+}
+
 .boton-2
 {
 
@@ -105,4 +126,5 @@ td
 	border: 1px solid #428bca;
 
 }
+
 
