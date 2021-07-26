@@ -158,7 +158,7 @@
 
 		<div class="row unid">
 			<div class="col-md-6">Número de telefono: <input class="input-1" type="number" name="telefono_ins" required></div>
-			<div class="col-md-6">Dirección de correo electrónico: <input class="input-1" type="text" name="correo_ins" required></div>
+			<div class="col-md-6">Dirección de correo electrónico: <input class="input-1" type="text" name="correo_ins" value="<?php echo $total_correo ?>" readonly onmousedown="return false;" required></div>
 		</div>
 		<hr>
 		<div class="col-md-12">

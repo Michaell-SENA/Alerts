@@ -40,7 +40,7 @@
 		$nombreS = $_GET['nombre'];
 
 		
-		$query = "SELECT t1.causa_reporte_aprendiz, t1.nombre, t1.apellido, t2.nombre_doc, t1.num_doc, t1.telefono, t1.direccion, t5.nombre_nivel, t1.programa, t1.ficha, t3.nombre_jornada, t7.nombre_sede, t4.nombre_mot_reporte, t6.nombre_reporte, t1.accion, t1.documento_soporte, t1.nombre_ins, t1.apellido_ins, t1.telefono_ins, t1.correo_ins FROM obj_alerta AS t1, obj_doc_sena AS t2, obj_jornada_sena AS t3, obj_mot_reporte_sena AS t4, obj_nivel_forma_sena AS t5, obj_per_reporte_sena AS t6, obj_sede_sena AS  t7 WHERE t1.responsable = '$nombreS' AND t2.id_obj_doc_sena = t1.doc AND t5.id_obj_nivel_sena = t1.nivel AND t1.jornada = t3.id_obj_jornada_sena AND t1.sede = t7.id_obj_sede_sena AND t1.cusa_reporte = t4.id_obj_mot_reporte_sena AND t1.reporte_diri = t6.id_obj_per_reporte_sena ORDER BY t1.id_obj_alerta ASC LIMIT $desde,$por_pagina;";
+		$query = "SELECT t1.causa_reporte_aprendiz, t1.nombre, t1.apellido, t2.nombre_doc, t1.num_doc, t1.telefono, t1.direccion, t5.nombre_nivel, t1.programa, t1.ficha, t3.nombre_jornada, t7.nombre_sede, t4.nombre_mot_reporte, t6.nombre_reporte, t1.accion, t1.documento_soporte, t1.nombre_ins, t1.apellido_ins, t1.telefono_ins, t1.correo_ins FROM obj_alerta AS t1, obj_doc_sena AS t2, obj_jornada_sena AS t3, obj_mot_reporte_sena AS t4, obj_nivel_forma_sena AS t5, obj_per_reporte_sena AS t6, obj_sede_sena AS  t7 WHERE t1.responsable = '$nombreS' AND t2.id_obj_doc_sena = t1.doc AND t5.id_obj_nivel_sena = t1.nivel AND t1.jornada = t3.id_obj_jornada_sena AND t1.sede = t7.id_obj_sede_sena AND t1.cusa_reporte = t4.id_obj_mot_reporte_sena AND t1.reporte_diri = t6.id_obj_per_reporte_sena ORDER BY t1.id_obj_alerta LIMIT $desde,$por_pagina;";
 
         //se encarga de recoger los datos enviados des de el buscador.
 		if(isset($_POST['busqueda']))
@@ -77,26 +77,26 @@
 
             <thead>
                 <tr>
-                    <th>NOMBRE APRENDIZ</th>
-                    <th>APELLIDO APRENDIZ</th>
-                    <th>TIPO DOC</th>
-                    <th>DOCUMENTO</th>
-                    <th>TELEFONO</th>
-                    <th>DIRECCIÓN</th>
-                    <th>NIVEL</th>
-                    <th>PROGRAMA</th>
-                    <th>FICHA</th>
-                    <th>JORNADA</th>
-                    <th>SEDE</th>
-                    <th>CAUSA REPORTE INSTRUCTOR</th>
-                    <th>CAUSA REPORTE APRENDIZ</th>
-                    <th>DIRIGIDO</th>
-                    <th>ACCIÓN</th>
-                    <th>SOPORTE</th>
-                    <th>NOMBRE INSTRUCTOR</th>
-                    <th>APELLIDO INSTRUCTOR</th>
-                    <th>TELEFONO INSTRUCTOR</th>
-                    <th>CORREO INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>NOMBRE APRENDIZ</th>
+                    <th style='background: orange; border: 2px solid #fff'>APELLIDO APRENDIZ</th>
+                    <th style='background: orange; border: 2px solid #fff'>TIPO DOC</th>
+                    <th style='background: orange; border: 2px solid #fff'>DOCUMENTO</th>
+                    <th style='background: orange; border: 2px solid #fff'>TELEFONO</th>
+                    <th style='background: orange; border: 2px solid #fff'>DIRECCIÓN</th>
+                    <th style='background: orange; border: 2px solid #fff'>NIVEL</th>
+                    <th style='background: orange; border: 2px solid #fff'>PROGRAMA</th>
+                    <th style='background: orange; border: 2px solid #fff'>FICHA</th>
+                    <th style='background: orange; border: 2px solid #fff'>JORNADA</th>
+                    <th style='background: orange; border: 2px solid #fff'>SEDE</th>
+                    <th style='background: orange; border: 2px solid #fff'>CAUSA REPORTE INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>CAUSA REPORTE APRENDIZ</th>
+                    <th style='background: orange; border: 2px solid #fff'>DIRIGIDO</th>
+                    <th style='background: orange; border: 2px solid #fff'>ACCIÓN</th>
+                    <th style='background: orange; border: 2px solid #fff'>SOPORTE</th>
+                    <th style='background: orange; border: 2px solid #fff'>NOMBRE INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>APELLIDO INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>TELEFONO INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>CORREO INSTRUCTOR</th>
                 </tr>
             </thead>
             <tbody>";
@@ -106,26 +106,26 @@
 
             	$parte1 .='
             	<tr>
-                	<td>'.$filas['nombre'].'</td>
-                	<td>'.$filas['apellido'].'</td>
-                	<td>'.$filas['nombre_doc'].'</td>
-                	<td>'.$filas['num_doc'].'</td>
-                	<td>'.$filas['telefono'].'</td>
-                	<td>'.$filas['direccion'].'</td>
-                	<td>'.$filas['nombre_nivel'].'</td>
-                	<td>'.$filas['programa'].'</td>
-                	<td>'.$filas['ficha'].'</td>
-                	<td>'.$filas['nombre_jornada'].'</td>
-                	<td>'.$filas['nombre_sede'].'</td>
-                	<td>'.$filas['nombre_mot_reporte'].'</td>
-                    <td>'.$filas['causa_reporte_aprendiz'].'</td>
-                	<td>'.$filas['nombre_reporte'].'</td>
-                	<td>'.$filas['accion'].'</td>
-                	<td><a target="_blank" href="../doc/'.$filas['documento_soporte'].'">'.$filas['documento_soporte'].'</a></td>
-                	<td>'.$filas['nombre_ins'].'</td>
-                	<td>'.$filas['apellido_ins'].'</td>
-                	<td>'.$filas['telefono_ins'].'</td>
-                	<td>'.$filas['correo_ins'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['apellido'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_doc'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['num_doc'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['telefono'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['direccion'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_nivel'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['programa'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['ficha'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_jornada'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_sede'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_mot_reporte'].'</td>
+                    <td style="background: orange; border: 2px solid #fff">'.$filas['causa_reporte_aprendiz'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_reporte'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['accion'].'</td>
+                	<td style="background: orange; border: 2px solid #fff"><a target="_blank" href="../doc/'.$filas['documento_soporte'].'">'.$filas['documento_soporte'].'</a></td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['nombre_ins'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['apellido_ins'].'</td>
+                	<td style="background: orange; border: 2px solid #fff"> '.$filas['telefono_ins'].'</td>
+                	<td style="background: orange; border: 2px solid #fff">'.$filas['correo_ins'].'</td>
             	</tr>';
             }
             echo $parte1 .="

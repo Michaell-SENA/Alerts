@@ -40,7 +40,7 @@
         $nombreS = $_GET['nombre'];
 
         
-        $query = "SELECT t1.causa_reporte_aprendiz, t1.nombre, t1.apellido, t2.nombre_doc, t1.num_doc, t1.telefono, t1.direccion, t5.nombre_nivel, t1.programa, t1.ficha, t3.nombre_jornada, t7.nombre_sede, t4.nombre_mot_reporte, t6.nombre_reporte, t1.accion, t1.documento_soporte, t1.nombre_ins, t1.apellido_ins, t1.telefono_ins, t1.correo_ins FROM obj_alerta AS t1, obj_doc_sena AS t2, obj_jornada_sena AS t3, obj_mot_reporte_sena AS t4, obj_nivel_forma_sena AS t5, obj_per_reporte_sena AS t6, obj_sede_sena AS  t7 WHERE t1.responsable = '$nombreS' AND t2.id_obj_doc_sena = t1.doc AND t5.id_obj_nivel_sena = t1.nivel AND t1.jornada = t3.id_obj_jornada_sena AND t1.sede = t7.id_obj_sede_sena AND t1.cusa_reporte = t4.id_obj_mot_reporte_sena AND t1.reporte_diri = t6.id_obj_per_reporte_sena AND t1.estado = 'VERDE' ORDER BY t1.id_obj_alerta ASC LIMIT $desde,$por_pagina;";
+        $query = "SELECT t1.causa_reporte_aprendiz, t1.nombre, t1.apellido, t2.nombre_doc, t1.num_doc, t1.telefono, t1.direccion, t5.nombre_nivel, t1.programa, t1.ficha, t3.nombre_jornada, t7.nombre_sede, t4.nombre_mot_reporte, t6.nombre_reporte, t1.accion, t1.documento_soporte, t1.nombre_ins, t1.apellido_ins, t1.telefono_ins, t1.correo_ins FROM obj_alerta AS t1, obj_doc_sena AS t2, obj_jornada_sena AS t3, obj_mot_reporte_sena AS t4, obj_nivel_forma_sena AS t5, obj_per_reporte_sena AS t6, obj_sede_sena AS  t7 WHERE t1.responsable = '$nombreS' AND t2.id_obj_doc_sena = t1.doc AND t5.id_obj_nivel_sena = t1.nivel AND t1.jornada = t3.id_obj_jornada_sena AND t1.sede = t7.id_obj_sede_sena AND t1.cusa_reporte = t4.id_obj_mot_reporte_sena AND t1.reporte_diri = t6.id_obj_per_reporte_sena AND t1.estado = 'VERDE' LIMIT $desde,$por_pagina;";
 
         //se encarga de recoger los datos enviados des de el buscador.
         if(isset($_POST['busqueda']))
@@ -77,16 +77,16 @@
 
             <thead>
                 <tr>
-                    <th class='verde'>NOMBRE APRENDIZ</th>
-                    <th class='verde'>APELLIDO APRENDIZ</th>
-                    <th class='verde'>TIPO DOC</th>
-                    <th class='verde'>DOCUMENTO</th>
-                    <th class='verde'>TELEFONO</th>
-                    <th class='verde'>NIVEL</th>
-                    <th class='verde'>PROGRAMA</th>
-                    <th class='verde'>FICHA</th>
-                    <th class='verde'>JORNADA</th>
-                    <th class='verde'>SEDE</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>NOMBRE APRENDIZ</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>APELLIDO APRENDIZ</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>TIPO DOC</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>DOCUMENTO</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>TELEFONO</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>NIVEL</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>PROGRAMA</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>FICHA</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>JORNADA</th>
+                    <th style='background: #43D308; border: 2px solid #fff'>SEDE</th>
                 </tr>
             </thead>
             <tbody>";
@@ -96,16 +96,16 @@
 
                 $parte1 .='
                 <tr>
-                    <td class=verde>'.$filas['nombre'].'</td>
-                    <td class=verde>'.$filas['apellido'].'</td>
-                    <td class=verde>'.$filas['nombre_doc'].'</td>
-                    <td class=verde>'.$filas['num_doc'].'</td>
-                    <td class=verde>'.$filas['telefono'].'</td>
-                    <td class=verde>'.$filas['nombre_nivel'].'</td>
-                    <td class=verde>'.$filas['programa'].'</td>
-                    <td class=verde>'.$filas['ficha'].'</td>
-                    <td class=verde>'.$filas['nombre_jornada'].'</td>
-                    <td class=verde>'.$filas['nombre_sede'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['nombre'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['apellido'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['nombre_doc'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['num_doc'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['telefono'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['nombre_nivel'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['programa'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['ficha'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['nombre_jornada'].'</td>
+                    <td style="background: #43D308; border: 2px solid #fff">'.$filas['nombre_sede'].'</td>
                 </tr>';
             }
             echo $parte1 .="

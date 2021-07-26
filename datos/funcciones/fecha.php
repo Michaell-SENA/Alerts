@@ -26,12 +26,16 @@
 			$firstDateS = $value['fecha'];
 			$secondDate = new DateTime($hoy);
 			$intvl = $firstDate->diff($secondDate);
+			$total = ($intvl->days)-1;
 
+			echo $total;
 
-			if ($intvl->days == 0) 
+			if ($total == 0) 
 			{
 				
-				// echo $intvl->days . " V---- ";
+
+
+				echo $intvl->days . " V---- ";
 
 				$query = "UPDATE obj_alerta
 				SET estado='VERDE'
@@ -42,10 +46,10 @@
 
 
 
-			}else if($intvl->days == 1)
+			}else if($total == 1)
 			{
 
-				// echo $intvl->days . " N---- ";
+				echo $intvl->days . " N---- ";
 
 				$query = "UPDATE obj_alerta
 				SET estado='NARANJA'
@@ -54,10 +58,10 @@
 	    		$resultado = Conexion::conectar()->prepare($query);
 	    		$resultado->execute();
 
-			}else if($intvl->days > 1){
+			}else if($total > 1){
 			
 
-				// echo $intvl->days . " R---- ";
+				echo $intvl->days . " R---- ";
 
 				$query = "UPDATE obj_alerta
 				SET estado='ROJO'

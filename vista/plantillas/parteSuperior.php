@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/pagina_alerta_temprana.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/pagina_registros.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -67,6 +69,12 @@
                 <a class="nav-link" href="../vista/casos_asignados.php?id=<?php echo $_SESSION['id']?>&nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
                     <i class="fas fa-address-book"></i>
                 <span>CASOS ASIGNADOS</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../vista/caso_reportado.php?id=<?php echo $_SESSION['id']?>&nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
+                    <i class="fas fa-address-book"></i>
+                <span>CASOS REGISTRADOS</span></a>
             </li>
 
             <div class="sidebar-heading">

@@ -6,7 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/pagina_registro.css">
 	<link href="../assets/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="../assets/plugins/overhang/overhang.min.css">
-	
+	<link rel="stylesheet" type="text/css" href="../assets/css/pagina_tipo_txt.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/pagina_admin.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/pagina_alerta_temprana.css">
+
 </head>
 <body>
 

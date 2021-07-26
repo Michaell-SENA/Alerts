@@ -1,0 +1,138 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+
+<meta charset="UTF-8"/>
+<table class="table table-bordered" id="">
+
+    <thead>
+        <tr>
+            <th>NOMBRE APRENDIZ</th>
+            <th>APELLIDO APRENDIZ</th>
+            <th>TIPO DOC</th>
+            <th>DOCUMENTO</th>
+            <th>TELEFONO</th>
+            <th>DIRECCIÓN</th>
+            <th>NIVEL</th>
+            <th>PROGRAMA</th>
+            <th>FICHA</th>
+            <th>JORNADA</th>
+            <th>SEDE</th>
+            <th>CAUSA</th>
+            <th>DIRIGIDO</th>
+            <th>ACCIÓN</th>
+            <th>SOPORTE</th>
+            <th>NOMBRE INSTRUCTOR</th>
+            <th>APELLIDO INSTRUCTOR</th>
+            <th>TELEFONO INSTRUCTOR</th>
+            <th>CORREO INSTRUCTOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>Mendoza</td>
+                <td>CC</td>
+                <td>2334</td>
+                <td>2332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>ADSI</td>
+                <td>32432</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>0</td>
+                <td>Psicologa</td>
+                <td></td>
+                <td><a target="_blank" href="../doc/"></a></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+            </tr>
+                    <tr class="">
+                <td>Michaell</td>
+                <td>qwerty</td>
+                <td>RI</td>
+                <td>534345</td>
+                <td>32332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Técnico</td>
+                <td>ADSI</td>
+                <td>43543</td>
+                <td>Tarde</td>
+                <td>Modelo</td>
+                <td>0</td>
+                <td>Psicologa</td>
+                <td></td>
+                <td><a target="_blank" href="../doc/"></a></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+            </tr>
+                    <tr class="">
+                <td>Michaell</td>
+                <td>qwerty</td>
+                <td>RI</td>
+                <td>534345</td>
+                <td>32332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Técnico</td>
+                <td>ADSI</td>
+                <td>43543</td>
+                <td>Tarde</td>
+                <td>Modelo</td>
+                <td>0</td>
+                <td>Psicologa</td>
+                <td></td>
+                <td><a target="_blank" href="../doc/"></a></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+            </tr>
+                    <tr class="">
+                <td>Michaell</td>
+                <td>qwerty</td>
+                <td>RI</td>
+                <td>534345</td>
+                <td>32332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Técnico</td>
+                <td>ADSI</td>
+                <td>43543</td>
+                <td>Tarde</td>
+                <td>Modelo</td>
+                <td>0</td>
+                <td>Psicologa</td>
+                <td></td>
+                <td><a target="_blank" href="../doc/"></a></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+            </tr>
+                    <tr class="">
+                <td>Michaell</td>
+                <td>qwerty</td>
+                <td>RI</td>
+                <td>534345</td>
+                <td>32332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Técnico</td>
+                <td>ADSI</td>
+                <td>43543</td>
+                <td>Tarde</td>
+                <td>Modelo</td>
+                <td>0</td>
+                <td>Psicologa</td>
+                <td></td>
+                <td><a target="_blank" href="../doc/"></a></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            </tbody>
+
+</table>

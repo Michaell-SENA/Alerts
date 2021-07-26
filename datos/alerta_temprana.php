@@ -49,6 +49,12 @@
     $resultado5 = Conexion::conectar()->prepare($query5);
     $resultado5->execute();
 
+    $sql_correo = "SELECT correo AS correo FROM obj_registro_sena WHERE nombre = '$nombre'";
+    $resultado_correo = Conexion::conectar()->prepare($sql_correo);
+    $resultado_correo->execute();
+    $total_correo = $resultado_correo->fetch()['correo'];
+
+
 	require_once("../vista/alerta_temprana.php");
 
 ?>

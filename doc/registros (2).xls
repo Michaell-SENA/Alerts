@@ -1,0 +1,99 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+<!-- Todo este archivo es el que permite la exportación a XLS-EXCEL. -->
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+
+<meta charset="UTF-8"/>
+<table class="table table-bordered" id="">
+
+    <thead>
+        <tr>
+            <th>NOMBRE APRENDIZ</th>
+            <th>APELLIDO APRENDIZ</th>
+            <th>TIPO DOC</th>
+            <th>DOCUMENTO</th>
+            <th>TELEFONO</th>
+            <th>DIRECCIÓN</th>
+            <th>NIVEL</th>
+            <th>PROGRAMA</th>
+            <th>FICHA</th>
+            <th>JORNADA</th>
+            <th>SEDE</th>
+            <th>CAUSA</th>
+            <th>DIRIGIDO</th>
+            <th>ACCIÓN</th>
+            <th>SOPORTE</th>
+            <th>NOMBRE INSTRUCTOR</th>
+            <th>APELLIDO INSTRUCTOR</th>
+            <th>TELEFONO INSTRUCTOR</th>
+            <th>CORREO INSTRUCTOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>qwerty</td>
+                <td>CF</td>
+                <td>3232</td>
+                <td>2332</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>32r32r</td>
+                <td>2323</td>
+                <td>Tarde</td>
+                <td>Finca KM11</td>
+                <td>Faltas académicas (Incumplimiento en actividades de aprendizaje, no aprobación de planes de mejoramiento, etc.,)</td>
+                <td>Psicologa</td>
+                <td>32dfdsfdf</td>
+                <td><a target="_blank" href="../doc/plantilla-corte-sim.pdf">plantilla-corte-sim.pdf</a></td>
+                <td>dantes</td>
+                <td>doblem</td>
+                <td>3243</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>milton</td>
+                <td>Mendoza</td>
+                <td>CC</td>
+                <td>324324</td>
+                <td>2343</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>ADSI</td>
+                <td>23432</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Psicologa</td>
+                <td>refgewfewfewfew</td>
+                <td><a target="_blank" href="../doc/plantilla-corte-sim.pdf">plantilla-corte-sim.pdf</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>5466546</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>qwerty</td>
+                <td>TI</td>
+                <td>23424</td>
+                <td>23432423</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>ADSI</td>
+                <td>234324</td>
+                <td>Noche</td>
+                <td>Centro</td>
+                <td>Otras situaciones que atentan con buen desarrollo del proceso formativo (Deficiencias cognitivas, alteraciones psicológicas y emocionales, entre otras)</td>
+                <td>Psicologa</td>
+                <td>ewrewrewrewrewr</td>
+                <td><a target="_blank" href="../doc/plantilla-corte-sim.pdf">plantilla-corte-sim.pdf</a></td>
+                <td>dantes</td>
+                <td>doblem</td>
+                <td>34543254</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+            </tbody>
+
+</table>

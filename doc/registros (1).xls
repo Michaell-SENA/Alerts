@@ -1,0 +1,99 @@
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+<!-- Todo este archivo es el que permite la exportación a XLS-EXCEL. -->
+<!-- "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un hábito" - Aristóteles -->
+<!-- Sistema de alertas tempranas realizado por programador @Michaell_Mendoza(@dante)  -->
+
+<meta charset="UTF-8"/>
+<table class="table table-bordered" id="">
+
+    <thead>
+        <tr>
+            <th>NOMBRE APRENDIZ</th>
+            <th>APELLIDO APRENDIZ</th>
+            <th>TIPO DOC</th>
+            <th>DOCUMENTO</th>
+            <th>TELEFONO</th>
+            <th>DIRECCIÓN</th>
+            <th>NIVEL</th>
+            <th>PROGRAMA</th>
+            <th>FICHA</th>
+            <th>JORNADA</th>
+            <th>SEDE</th>
+            <th>CAUSA</th>
+            <th>DIRIGIDO</th>
+            <th>ACCIÓN</th>
+            <th>SOPORTE</th>
+            <th>NOMBRE INSTRUCTOR</th>
+            <th>APELLIDO INSTRUCTOR</th>
+            <th>TELEFONO INSTRUCTOR</th>
+            <th>CORREO INSTRUCTOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                    <tr class="">
+                <td>milton</td>
+                <td>Mendoza Pacheco</td>
+                <td>TI</td>
+                <td>1006700800197</td>
+                <td>3178284780</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>Archivo</td>
+                <td>183568</td>
+                <td>Mañana</td>
+                <td>Finca KM11</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Coordinación académica</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/casos_asignados (6).xls">casos_asignados (6).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>3486423</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Dante</td>
+                <td>Mendoza</td>
+                <td>RI</td>
+                <td>317807244778</td>
+                <td>7272772</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Especialización Técnica</td>
+                <td>ADSI</td>
+                <td>7827827</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>Otras situaciones que atentan con buen desarrollo del proceso formativo (Deficiencias cognitivas, alteraciones psicológicas y emocionales, entre otras)</td>
+                <td>Coordinación académica</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/casos_asignados (4).xls">casos_asignados (4).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>877858</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+                    <tr class="">
+                <td>Michaell Mendoza</td>
+                <td>Mendoza Pacheco</td>
+                <td>CC</td>
+                <td>1006700197</td>
+                <td>3178284780</td>
+                <td>calle 13 #19-35 Barrio Modelo</td>
+                <td>Tecnologo</td>
+                <td>ADSI</td>
+                <td>18354680</td>
+                <td>Tarde</td>
+                <td>Centro</td>
+                <td>Faltas disciplinarias (Mal porte del uniforme, agresiones verbales o físicas, Inasistencia a la formación, llegadas tarde, etc.,)</td>
+                <td>Bienestar al aprendiz</td>
+                <td>ESTE CHICO HACKEO LA NASA :V</td>
+                <td><a target="_blank" href="../doc/casos_asignados (3).xls">casos_asignados (3).xls</a></td>
+                <td>dante</td>
+                <td>doblem</td>
+                <td>3178284780</td>
+                <td>xd2000@gmail.com</td>
+            </tr>
+            </tbody>
+
+</table>
