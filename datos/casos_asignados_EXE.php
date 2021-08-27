@@ -40,10 +40,10 @@
             <th>DIRIGIDO</th>
             <th>ACCIÓN</th>
             <th>SOPORTE</th>
-            <th>NOMBRE INSTRUCTOR</th>
-            <th>APELLIDO INSTRUCTOR</th>
-            <th>TELEFONO INSTRUCTOR</th>
-            <th>CORREO INSTRUCTOR</th>
+            <th>NOMBRE EMISOR</th>
+            <th>APELLIDO EMISOR</th>
+            <th>TELEFONO EMISOR</th>
+            <th>CORREO EMISOR</th>
         </tr>
     </thead>
     <tbody>

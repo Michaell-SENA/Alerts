@@ -21,14 +21,14 @@
                 $ficha = $_POST['ficha'];
                 $jornada = $_POST['jornada'];
                 $sede = $_POST['sede'];
-                $correo_aprendiz = $_POST['correo_aprendiz'];
+                $correo_aprendiz = "";
                 $causa_reporte_aprendiz = $_POST['res'];
                 $cusa_reporte = 4;
                 $reporte_diri = 1;
                 $accion = "";
                 $nombre_ins = "";
                 $apellido_ins = "";
-                $correo_ins = "";
+                $correo_ins = $_POST['correo_ins'];
                 $responsable = "";
                 $telefono_ins = 0;
                 $imagenProducto = "";

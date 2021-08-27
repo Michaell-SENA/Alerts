@@ -21,7 +21,7 @@
 		}else{
 
 			//Valida que el correo y la contraseña conincidan con la del registro.
-			$query = "SELECT id_obj_registro_sena, nombre,correo,contrasena FROM obj_registro_sena WHERE correo = :correo";
+			$query = "SELECT id_obj_registro_sena, nombre,correo,contrasena,cargo FROM obj_registro_sena WHERE correo = :correo";
 
 		    $resultado = Conexion::conectar()->prepare($query);
 
@@ -37,6 +37,8 @@
 				session_start();
 
 				$_SESSION['id'] = $filas['id_obj_registro_sena'];
+
+				$_SESSION['cargo'] = $filas['cargo'];
 
 		        $pass1 = $filas['contrasena'];
 

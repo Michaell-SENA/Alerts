@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/pagina_tipo_txt.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/pagina_admin.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/pagina_alerta_temprana.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/pagina_casa_aprendiz.css">
 
 </head>
 <body>

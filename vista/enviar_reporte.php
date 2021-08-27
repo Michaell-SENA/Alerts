@@ -31,7 +31,7 @@
 				<textarea class="cd" name="asunto"></textarea>
 				<label>Contenido</label>
 				<textarea class="cd" name="cuerpo" rows="10"></textarea>
-				<label>Correo del intructor</label>
+				<label>Correo del receptor</label>
 				<input class="cd" type="email" name="correo" value="<?php echo $total_registro ?>" readonly onmousedown="return false;" required>
 
 				<div class="row col-md-12">

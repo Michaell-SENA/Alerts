@@ -31,7 +31,7 @@
         <ul class="navbar-nav barra sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../datos/admin.php">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-user-shield"></i>
                 </div>
@@ -52,6 +52,15 @@
                     <span>Inicio</span></a>
             </li>
 
+            <div class="sidebar-heading">
+                SEGUIMIENTO
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../vista/registros.php?nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
+                    <i class="fas fa-id-badge"></i>
+                <span>REGISTROS</span></a>
+            </li>
 
             <!-- Heading -->
             <div class="sidebar-heading">
@@ -64,6 +73,16 @@
                 <span>ALERTA TEMPRANA</span></a>
             </li>
 
+            <?php if ($_SESSION['cargo'] == 1) 
+                {
+
+
+                $crg = $_SESSION['cargo'];
+                $crg = password_hash($crg, PASSWORD_DEFAULT);
+                
+            ?>
+            
+
 
             <li class="nav-item">
                 <a class="nav-link" href="../vista/casos_asignados.php?id=<?php echo $_SESSION['id']?>&nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
@@ -72,19 +91,15 @@
             </li>
 
             <li class="nav-item">
+                <a class="nav-link" href="../datos/herramienta_citas/index.php?for=<?php echo $_SESSION['nombres']; ?>&factor=<?php echo $crg ?>">
+                    <i class="fas fa-address-book"></i>
+                <span>AGENDA</span></a>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link" href="../vista/caso_reportado.php?id=<?php echo $_SESSION['id']?>&nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
                     <i class="fas fa-address-book"></i>
                 <span>CASOS REGISTRADOS</span></a>
-            </li>
-
-            <div class="sidebar-heading">
-                SEGUIMIENTO
-            </div>
-
-            <li class="nav-item">
-                <a class="nav-link" href="../vista/registros.php?nombre=<?php echo $_SESSION['nombres']; ?>&pagina=1">
-                    <i class="fas fa-id-badge"></i>
-                <span>REGISTROS</span></a>
             </li>
 
             <div class="sidebar-heading">
@@ -116,7 +131,9 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
+            <?php 
+                }
+            ?>
         </ul>
         <!-- End of Sidebar -->
 

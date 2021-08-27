@@ -72,7 +72,8 @@
 				      Si eres un aprendiz seleccione esta opción.
 				    </span>
 				</div>
-			<a class="btn boton fon" href="../datos/aprendiz_registro.php" target="_blank">Aprendiz.</a>
+			<a class="btn boton fon" href="../vista/casa_aprendiz.php">Aprendiz.</a>
+			<!-- <a class="btn boton fon" href="../datos/aprendiz_registro.php" target="_blank">Aprendiz.</a> -->
 		</div>
 	</form>
 

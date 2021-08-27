@@ -5,6 +5,8 @@
 
 		$hoy = date("Y-m-d");
 
+		echo $hoy;
+
 		$sql_registro_fecha = "SELECT fecha_registro FROM obj_alerta";
 	    $resultado_registro_fecha = Conexion::conectar()->prepare($sql_registro_fecha);
 	    $resultado_registro_fecha->execute();

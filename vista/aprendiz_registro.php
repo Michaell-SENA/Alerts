@@ -95,7 +95,7 @@
 	        	</select>
 			</div>
 
-			<div class="col-md-6">Correo: <input class="input-1" type="text" name="correo_aprendiz" required></div>
+			<div class="col-md-6">Correo: <input class="input-1" type="text" name="correo_ins" required></div>
 
 		</div>
 

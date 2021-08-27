@@ -84,10 +84,10 @@
                     <th style='background: orange; border: 2px solid #fff'>DIRIGIDO</th>
                     <th style='background: orange; border: 2px solid #fff'>ACCIÓN</th>
                     <th style='background: orange; border: 2px solid #fff'>SOPORTE</th>
-                    <th style='background: orange; border: 2px solid #fff'>NOMBRE INSTRUCTOR</th>
-                    <th style='background: orange; border: 2px solid #fff'>APELLIDO INSTRUCTOR</th>
-                    <th style='background: orange; border: 2px solid #fff'>TELEFONO INSTRUCTOR</th>
-                    <th style='background: orange; border: 2px solid #fff'>CORREO INSTRUCTOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>NOMBRE EMISOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>APELLIDO EMISOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>TELEFONO EMISOR</th>
+                    <th style='background: orange; border: 2px solid #fff'>CORREO EMISOR</th>
                 </tr>
             </thead>
             <tbody>";
